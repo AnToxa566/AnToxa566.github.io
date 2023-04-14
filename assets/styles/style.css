@@ -1,0 +1,181 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+main {
+  display: flex;
+  margin: 50px auto;
+  max-width: 65%;
+  height: auto;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 0 60px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.side-bar__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  flex-grow: 1;
+  padding: 50px 0 50px 60px;
+  color: white;
+  background-color: #1f1f26;
+}
+
+.resume-photo {
+  max-width: 100%;
+}
+
+.education-block__list {
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.education-block__list-item {
+  margin-bottom: 20px;
+}
+.education-block__list-item__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.education-block__list-item__university, .education-block__list-item__years {
+  font-size: 0.9rem;
+}
+
+.contacts-block__list-item {
+  margin-bottom: 20px;
+}
+.contacts-block__list-item:last-child {
+  margin-bottom: 0px;
+}
+.contacts-block__list-item__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 5px 0 5px 20px;
+  background-color: #29292f;
+  border-left: 10px solid #fdcb00;
+}
+.contacts-block__list-item__subtitle {
+  font-size: 0.9rem;
+  padding-left: 30px;
+}
+
+.main-content {
+  width: 70%;
+}
+
+.offer-block {
+  background-color: #fdcb00;
+  padding: 60px;
+  margin: 120px 0 50px;
+}
+.offer-block__title {
+  font-size: 2.5rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+.offer-block__subtitle {
+  font-weight: 500;
+}
+.offer-block__first-name {
+  font-weight: 700;
+}
+
+.title-underline__black {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.title-underline__yellow {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fdcb00;
+}
+
+.about-block {
+  margin-bottom: 60px;
+}
+.about-block__body {
+  margin-bottom: 10px;
+}
+
+.experience-block {
+  margin-bottom: 60px;
+}
+.experience-block__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.experience-block__list-item__years {
+  font-weight: 700;
+  min-width: 20%;
+  margin-right: 10px;
+}
+.experience-block__list-item__job {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.experience-block__list-item__company {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.experience-block__list-item__body {
+  font-weight: 600;
+}
+
+.software-skills-block {
+  padding-bottom: 30px;
+}
+
+.software-skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+.software-skills__list-item {
+  min-width: 40%;
+  margin-bottom: 25px;
+}
+.software-skills__list-item__title {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.loadbar {
+  display: flex;
+}
+.loadbar div:first-child {
+  width: 80%;
+  height: 5px;
+  background-color: #2d2d2d;
+}
+.loadbar div:last-child {
+  width: 20%;
+  height: 5px;
+  background-color: #cccccc;
+}/*# sourceMappingURL=style.css.map */
